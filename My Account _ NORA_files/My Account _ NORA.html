@@ -1128,58 +1128,65 @@
 									<div class="col-lg-10 col-centered">
 										<form class="woocommerce-EditAccountForm edit-account" action="" method="post">
 
-
-											<p class="woocommerce-FormRow woocommerce-FormRow--first form-row form-row-first">
-												<label for="account_first_name">First name <span
-													class="required">*</span></label>
-												<input class="woocommerce-Input woocommerce-Input--text input-text"
-													   name="account_first_name" id="account_first_name" value="Acck"
-													   type="text">
-											</p>
-											<p class="woocommerce-FormRow woocommerce-FormRow--last form-row form-row-last">
-												<label for="account_last_name">Last name <span
-													class="required">*</span></label>
-												<input class="woocommerce-Input woocommerce-Input--text input-text"
-													   name="account_last_name" id="account_last_name" value="Tech"
-													   type="text">
-											</p>
-											<div class="clear"></div>
-
-											<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-												<label for="account_email">Email address <span
-													class="required">*</span></label>
-												<input class="woocommerce-Input woocommerce-Input--email input-text"
-													   name="account_email" id="account_email" value="accktech@gmail.com"
-													   type="email">
-											</p>
-											<fieldset>
-												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
-													<label for="password_current">Current Password <span class="tip">leave blank to leave unchanged</span></label>
-													<input class="woocommerce-Input woocommerce-Input--password input-text"
-														   name="password_current" id="password_current" type="password">
+											<div role="group">
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
+													<label for="account_first_name">First name <span
+														class="required">*</span></label>
+													<input class="woocommerce-Input woocommerce-Input--text input-text"
+														   placeholder="First name *"
+														   name="account_first_name" id="account_first_name"
+														   value="Acck"
+														   type="text">
 												</p>
-												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
+													<label for="account_last_name">Last name <span class="required">*</span></label>
+													<input class="woocommerce-Input woocommerce-Input--text input-text"
+														   placeholder="Last name *"
+														   name="account_last_name" id="account_last_name" value="Tech"
+														   type="text">
+												</p>
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
+													<label for="account_email">Email address <span
+														class="required">*</span></label>
+													<input class="woocommerce-Input woocommerce-Input--email input-text"
+														   placeholder="Email address *"
+														   name="account_email" id="account_email"
+														   value="accktech@gmail.com"
+														   type="email">
+												</p>
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
+													<label for="password_current">Current Password</label>
+													<input
+														class="woocommerce-Input woocommerce-Input--password input-text"
+														placeholder="Current Password"
+														name="password_current" id="password_current" type="password">
+													<span class="tip">leave blank to leave unchanged</span>
+												</p>
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
 													<label for="password_1">New Password</label>
-													<input class="woocommerce-Input woocommerce-Input--password input-text"
-														   name="password_1" id="password_1"
-														   pattern="^(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
-														   oninput="setCustomValidity('')"
-														   oninvalid="setCustomValidity(' password should be at least 1 numeric, 1 capital letter and 1 special character and length of 8-16 characters')"
-														   type="password">
+													<input
+														class="woocommerce-Input woocommerce-Input--password input-text"
+														placeholder="New Password"
+														name="password_1" id="password_1"
+														pattern="^(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+														oninput="setCustomValidity('')"
+														oninvalid="setCustomValidity(' password should be at least 1 numeric, 1 capital letter and 1 special character and length of 8-16 characters')"
+														type="password">
 												</p>
-												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide">
+												<p class="woocommerce-FormRow woocommerce-FormRow--wide form-row">
 													<label for="password_2">Confirm New Password</label>
-													<input class="woocommerce-Input woocommerce-Input--password input-text"
-														   name="password_2" id="password_2"
-														   pattern="^(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
-														   oninput="setCustomValidity('')"
-														   oninvalid="setCustomValidity(' password should be at least 1 numeric, 1 capital letter and 1 special character and length of 8-16 characters')"
-														   type="password">
+													<input
+														class="woocommerce-Input woocommerce-Input--password input-text"
+														placeholder="Confirm New Password"
+														name="password_2" id="password_2"
+														pattern="^(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+														oninput="setCustomValidity('')"
+														oninvalid="setCustomValidity(' password should be at least 1 numeric, 1 capital letter and 1 special character and length of 8-16 characters')"
+														type="password">
 												</p>
-											</fieldset>
+											</div>
+
 											<div class="clear"></div>
-
-
 											<p>
 												<input id="_wpnonce" name="_wpnonce" value="4fcd33b23a" type="hidden"><input
 												name="_wp_http_referer" value="/my-account/edit-account/" type="hidden">

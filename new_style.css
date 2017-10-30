@@ -1,0 +1,113 @@
+.woocommerce-edit-account.woocommerce-account .woocommerce-MyAccount-content {
+	float: none;
+	width: 100%;
+}
+
+.woocommerce-edit-account .woocommerce-MyAccount-content .order-block {
+	padding: 80px 0 80px 0;
+}
+
+.woocommerce-edit-account .woocommerce-EditAccountForm div[role='group'] {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 22px;
+}
+.woocommerce-edit-account .woocommerce-EditAccountForm div[role='group'] > p {
+	width: 50%;
+	padding: 0 5px;
+	margin-bottom: 28px;
+	position: relative;
+}
+
+.woocommerce-edit-account .woocommerce form .form-row input.input-text {
+	background-color: rgb(245, 249, 250);
+	background-image: none;
+	border: none;
+	margin: 0;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "GothamPro", sans-serif;
+	color: #6b6b6b;
+	border-radius: 5px;
+	padding: 20px;
+	padding-left: 18px !important;
+}
+.woocommerce-edit-account .woocommerce form .form-row label {
+	display: none;
+}
+.woocommerce-edit-account .woocommerce form .form-row .tip {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "GothamProLightItalic", sans-serif;
+	font-style: italic;
+	color: #a8a8a8;
+	padding: 0 10px;
+	margin: 0;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	width: 100%;
+}
+.navigation-wrapper .secondary-navigation-wrapper {
+	display: none;
+}
+.woocommerce-edit-account .woocommerce input.button {
+	box-shadow: 0 19px 26px 0 rgba(245, 49, 87, 0.4);
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	font-family: "GothamBlack", sans-serif;
+	color: #fff;
+	text-transform: capitalize;
+	transition: none;
+	border-radius: 30px;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+}
+.woocommerce-edit-account .woocommerce input.button:hover {
+	background: #f53157;
+}
+
+@media (max-width: 992px) {
+	.woocommerce-edit-account .woocommerce-MyAccount-content .order-block {
+		padding: 50px 0 70px 0;
+	}
+	.woocommerce-edit-account .woocommerce form .form-row input.input-text {
+		padding: 15px;
+	}
+	.woocommerce-edit-account .woocommerce input.button {
+		width: 220px;
+		height: 50px;
+		line-height: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.woocommerce-edit-account .woocommerce-EditAccountForm div[role='group'] > p {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+	.woocommerce-edit-account .woocommerce-MyAccount-content .order-block {
+		padding: 30px 0 40px 0;
+		margin: 10px -40px 0;
+	}
+	.woocommerce-edit-account .woocommerce form .form-row input.input-text {
+		font-size: 12px;
+		padding: 9px;
+		padding-left: 15px !important;
+	}
+	.woocommerce-edit-account .woocommerce input.button {
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+	}
+	.woocommerce-edit-account .woocommerce-EditAccountForm div[role='group'] {
+		margin-bottom: 10px;
+	}
+}
